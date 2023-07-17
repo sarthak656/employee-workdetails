@@ -1,0 +1,121 @@
+.dialogtitle{
+ color: #333333;
+ font-weight: bold;
+ font-size: 50px;
+}
+.input{
+  width: 450px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+}
+.startdate{
+  width: 200px;
+  height: 25px;
+  border: none;
+  font-size: 14px;
+}
+.enddate{
+  width: 200px;
+  height: 25px;
+  border: none;
+  font-size: 14px;
+margin-left: 110px;
+}
+
+.plus-button {
+  /* Set the desired button styles */
+  width: 40x;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.empl{
+  background-color: #1877F2;
+  color: #f1f1f1;
+font-size: 14px;
+font-style: italic;
+  padding: 10px 20px;
+  /* border-radius: 25px; */
+}
+
+select option:hover {
+  background-color: #f1f1f1;
+
+}
+
+table{
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+   user-select: none; 
+  margin-top: 20px;
+ 
+}
+table tr th:nth-child(1),
+table tr td:nth-child(1) {
+  width: 20%;
+  /* padding-left: 2%; */
+  text-align: center !important;
+}
+
+
+table tr th:nth-child(2),
+table tr td:nth-child(2) {
+  width: 30%;
+  text-align: center ;
+}
+
+table tr th:nth-child(3),
+table tr td:nth-child(3) {
+  width: 20%;
+  text-align: center ;
+}
+
+table tr th:nth-child(4),
+table tr td:nth-child(4) {
+  width: 20%;
+  text-align: center ;
+}
+
+table tr th:nth-child(5),
+table tr td:nth-child(5) {
+  width: 20%;
+  text-align: center;
+}
+
+.bg{
+  background-image: url('./images/Office.png');
+  width: 80%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* filter: brightness(1.0) contrast(0.8); */
+  /* filter: grayscale(70%); */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.outer-box {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  /* padding: 20px; */
+  box-sizing: border-box;
+  margin-left:900px;
+  margin-top: 300px;
+}
+
+table th {
+  padding: 10px 20px;
+}
+
+table td {
+  padding: 15px 11px;
+  border-bottom: 1px solid #06060621 !important;
+}
